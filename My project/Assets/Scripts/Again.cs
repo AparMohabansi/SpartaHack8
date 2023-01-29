@@ -7,6 +7,8 @@ public class Again : MonoBehaviour
 {
     public void PlayAgain()
     {
+        GlobalVariables.statusChange = 0;
+        GlobalVariables.policyChange = 0;
         SceneManager.LoadScene(sceneBuildIndex: 1);
     }
 }

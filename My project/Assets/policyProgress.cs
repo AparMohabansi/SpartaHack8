@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class policyProgress : MonoBehaviour
 {
@@ -20,5 +21,10 @@ public class policyProgress : MonoBehaviour
     void Update()
     {
         ProgressImage.fillAmount += GlobalVariables.policyChange;
+
+        if (ProgressImage.fillAmount <= 0)
+        {
+            SceneManager.LoadScene(sceneBuildIndex: 2);
+        }
     }
 }
