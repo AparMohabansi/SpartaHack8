@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -446.12, y: -217.79}
+  m_AnchoredPosition: {x: -344, y: -214}
   m_SizeDelta: {x: 223.07, y: 67.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &29972319
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 805699128}
   self: {fileID: 381668805}
-  status: 0.0005
+  status: 0.00005
   policy: -0.0007
 --- !u!1 &390422519
 GameObject:
@@ -2831,8 +2831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1339169271}
   self: {fileID: 711329986}
-  status: 0.0005
-  policy: -0.0007
+  status: 0.00005
+  policy: -0.00007
 --- !u!1 &717258560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,8 +3442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 844098437}
-  status: 0.0007
-  policy: -0.0007
+  status: 0.00007
+  policy: -0.00007
 --- !u!1 &859687023
 GameObject:
   m_ObjectHideFlags: 0
@@ -3728,8 +3728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 258618791}
   self: {fileID: 874908193}
-  status: 0.0006
-  policy: -0.0007
+  status: 0.00006
+  policy: -0.00007
 --- !u!1 &917474458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,6 +3877,7 @@ GameObject:
   - component: {fileID: 919324914}
   - component: {fileID: 919324913}
   - component: {fileID: 919324912}
+  - component: {fileID: 919324915}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3934,6 +3935,18 @@ Transform:
   m_Father: {fileID: 5473504236762606819}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &919324915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919324911}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adba73fa98c20294780d58122c84e455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &931225273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4659,8 +4672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 1098997096}
-  status: 0.0007
-  policy: -0.0007
+  status: 0.00007
+  policy: -0.00007
 --- !u!1 &1124085651
 GameObject:
   m_ObjectHideFlags: 0
@@ -5116,8 +5129,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1549034094}
   self: {fileID: 1195922131}
-  status: 0.0005
-  policy: -0.0007
+  status: 0.00005
+  policy: -0.00007
 --- !u!1 &1197272498
 GameObject:
   m_ObjectHideFlags: 0
@@ -5585,8 +5598,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 1301258075}
-  status: -0.0007
-  policy: 0.0007
+  status: -0.00007
+  policy: 0.00007
 --- !u!1 &1314303936
 GameObject:
   m_ObjectHideFlags: 0
@@ -6314,8 +6327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 1452762673}
-  status: -0.0007
-  policy: 0.0007
+  status: -0.00007
+  policy: 0.00007
 --- !u!1 &1477992037
 GameObject:
   m_ObjectHideFlags: 0
@@ -6464,8 +6477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1821821555}
   self: {fileID: 1477992039}
-  status: -0.0007
-  policy: 0.0005
+  status: -0.00007
+  policy: 0.00005
 --- !u!1 &1506288167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6614,8 +6627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1718563626}
   self: {fileID: 1506288169}
-  status: -0.0007
-  policy: 0.0005
+  status: -0.00007
+  policy: 0.00005
 --- !u!1 &1532222666
 GameObject:
   m_ObjectHideFlags: 0
@@ -7088,8 +7101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 1568080025}
-  status: 0.0007
-  policy: -0.0007
+  status: 0.00007
+  policy: -0.00007
 --- !u!1 &1587336880
 GameObject:
   m_ObjectHideFlags: 0
@@ -7409,8 +7422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 1603047320}
-  status: 0.0007
-  policy: -0.0007
+  status: 0.00007
+  policy: -0.00007
 --- !u!1 &1626118921
 GameObject:
   m_ObjectHideFlags: 0
@@ -7730,8 +7743,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1180458040}
   self: {fileID: 1642167573}
-  status: 0.0005
-  policy: -0.0007
+  status: 0.00005
+  policy: -0.00007
 --- !u!4 &1642493544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8508681389265337778, guid: d8ed51055fc8cb04f827f08dc1a3c210, type: 3}
@@ -8108,8 +8121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1988694489}
   self: {fileID: 1703704020}
-  status: 0.0006
-  policy: -0.0007
+  status: 0.00006
+  policy: -0.00007
 --- !u!1 &1718563623
 GameObject:
   m_ObjectHideFlags: 0
@@ -8714,8 +8727,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1587336882}
   self: {fileID: 1899972458}
-  status: 0.0006
-  policy: -0.0007
+  status: 0.00006
+  policy: -0.00007
 --- !u!1 &1917064149
 GameObject:
   m_ObjectHideFlags: 0
@@ -8864,8 +8877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 699581770}
   self: {fileID: 1917064151}
-  status: -0.0007
-  policy: 0.0006
+  status: -0.00007
+  policy: 0.00006
 --- !u!1001 &1941336456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8887,11 +8900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8508681389265337778, guid: d8ed51055fc8cb04f827f08dc1a3c210, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 8508681389265337778, guid: d8ed51055fc8cb04f827f08dc1a3c210, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -87
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 8508681389265337778, guid: d8ed51055fc8cb04f827f08dc1a3c210, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9005,8 +9018,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952755840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -95.499985, y: -42, z: 0}
-  m_LocalScale: {x: 17, y: 14, z: 1.4866}
+  m_LocalPosition: {x: -95.5, y: -42, z: 0}
+  m_LocalScale: {x: 15.643556, y: 14, z: 1.4866}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5473504236762606819}
@@ -9349,7 +9362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1992992334
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9668,8 +9681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 1197272501}
   self: {fileID: 2047797385}
-  status: -0.0007
-  policy: 0.0006
+  status: -0.00007
+  policy: 0.00006
 --- !u!1 &2064343683
 GameObject:
   m_ObjectHideFlags: 0
@@ -9818,8 +9831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlock: {fileID: 995627924}
   self: {fileID: 2064343685}
-  status: 0.0006
-  policy: -0.0007
+  status: 0.00006
+  policy: -0.00007
 --- !u!1 &2142655212
 GameObject:
   m_ObjectHideFlags: 0
