@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class policy_close : MonoBehaviour
+public class DisplayOptions : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject Text;
+    public GameObject Buy;
     public GameObject other1;
     public GameObject other2;
     public GameObject other3;
@@ -27,16 +28,14 @@ public class policy_close : MonoBehaviour
     public GameObject other20;
     public GameObject other21;
     public GameObject other22;
-    public GameObject other23;
-    public GameObject other24;
 
-
-
-    public void ClosePanel()
+    public void Activate()
     {
-        if (Panel != null)
+        if (Text != null)
         {
-            Panel.SetActive(false);
+            Text.SetActive(true);
+            Buy.SetActive(true);
+
             other1.SetActive(false);
             other2.SetActive(false);
             other3.SetActive(false);
@@ -59,8 +58,6 @@ public class policy_close : MonoBehaviour
             other20.SetActive(false);
             other21.SetActive(false);
             other22.SetActive(false);
-            other23.SetActive(false);
-            other24.SetActive(false);
         }
     }
 }

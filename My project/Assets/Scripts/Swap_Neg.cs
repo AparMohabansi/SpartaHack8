@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class policy_close : MonoBehaviour
+public class Swap_Neg : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject Panel1;
+    public GameObject Panel2;
     public GameObject other1;
     public GameObject other2;
     public GameObject other3;
@@ -30,13 +31,11 @@ public class policy_close : MonoBehaviour
     public GameObject other23;
     public GameObject other24;
 
-
-
-    public void ClosePanel()
+    public void SwapPanel()
     {
-        if (Panel != null)
+        if (Panel1 != null)
         {
-            Panel.SetActive(false);
+            Panel1.SetActive(false);
             other1.SetActive(false);
             other2.SetActive(false);
             other3.SetActive(false);
@@ -61,6 +60,11 @@ public class policy_close : MonoBehaviour
             other22.SetActive(false);
             other23.SetActive(false);
             other24.SetActive(false);
+        }
+
+        if (Panel2 != null)
+        {
+            Panel2.SetActive(true);
         }
     }
 }
