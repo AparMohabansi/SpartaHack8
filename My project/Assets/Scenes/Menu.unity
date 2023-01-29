@@ -209,8 +209,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 332426662}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_TargetAssemblyTypeName: policy_open, Assembly-CSharp
+        m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -267,9 +267,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 332426657}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b786efd880e18448278097ad9cdcdb, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c847b83b5d6e164f82ad8918d6615be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Panel: {fileID: 596242120}
 --- !u!1 &391460274
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &596242121
 RectTransform:
   m_ObjectHideFlags: 0
@@ -437,7 +438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -526,11 +527,12 @@ MonoBehaviour:
 
     During gameplay you will see 2 bars. The green
     bar is the Earth''s status bar. The blue bar is the public opinion bar. Certain
-    decisions you make will influence how these bars change.
+    decisions you make will influence how these bars change. Don''t let them get
+    too low!
 
 
-    To make a decision,
-    hit the "policies" button and make your move!'
+    To make a decision, hit the "policies" button and make your move!
+    To win you have to save the Earth! ;)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -619,6 +621,7 @@ GameObject:
   - component: {fileID: 900105287}
   - component: {fileID: 900105286}
   - component: {fileID: 900105285}
+  - component: {fileID: 900105288}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -689,7 +692,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 900105286}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 900105288}
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &900105286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,6 +743,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900105283}
   m_CullTransparentMesh: 1
+--- !u!114 &900105288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900105283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b786efd880e18448278097ad9cdcdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1339388205
 GameObject:
   m_ObjectHideFlags: 0

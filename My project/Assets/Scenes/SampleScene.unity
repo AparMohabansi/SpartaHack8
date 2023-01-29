@@ -1824,7 +1824,7 @@ MonoBehaviour:
   unlock: {fileID: 805699128}
   self: {fileID: 381668805}
   status: 0.00005
-  policy: -0.0007
+  policy: -0.00003
 --- !u!1 &390422519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,7 +2954,7 @@ MonoBehaviour:
   unlock: {fileID: 1339169271}
   self: {fileID: 711329986}
   status: 0.00005
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &717258560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3565,7 +3565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   self: {fileID: 844098437}
   status: 0.00007
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &859687023
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,7 +3851,7 @@ MonoBehaviour:
   unlock: {fileID: 258618791}
   self: {fileID: 874908193}
   status: 0.00006
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &917474458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,7 +4795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   self: {fileID: 1098997096}
   status: 0.00007
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1124085651
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,7 +5252,7 @@ MonoBehaviour:
   unlock: {fileID: 1549034094}
   self: {fileID: 1195922131}
   status: 0.00005
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1197272498
 GameObject:
   m_ObjectHideFlags: 0
@@ -7224,7 +7224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   self: {fileID: 1568080025}
   status: 0.00007
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1587336880
 GameObject:
   m_ObjectHideFlags: 0
@@ -7545,7 +7545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   self: {fileID: 1603047320}
   status: 0.00007
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1624607761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7898,7 +7898,7 @@ MonoBehaviour:
   unlock: {fileID: 1180458040}
   self: {fileID: 1642167573}
   status: 0.00005
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1650810281
 GameObject:
   m_ObjectHideFlags: 0
@@ -8407,7 +8407,7 @@ MonoBehaviour:
   unlock: {fileID: 1988694489}
   self: {fileID: 1703704020}
   status: 0.00006
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1718563623
 GameObject:
   m_ObjectHideFlags: 0
@@ -9090,7 +9090,7 @@ MonoBehaviour:
   unlock: {fileID: 1587336882}
   self: {fileID: 1899972458}
   status: 0.00006
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &1917064149
 GameObject:
   m_ObjectHideFlags: 0
@@ -10134,7 +10134,7 @@ MonoBehaviour:
   unlock: {fileID: 995627924}
   self: {fileID: 2064343685}
   status: 0.00006
-  policy: -0.00007
+  policy: -0.00003
 --- !u!1 &2093583598
 GameObject:
   m_ObjectHideFlags: 0
